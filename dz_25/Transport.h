@@ -10,7 +10,7 @@ protected:
 
 public:
 	Transport(double _c = 0U);
-	virtual void Print();
+	virtual void Print() = 0;
 };
 
 class Airplane : public Transport
